@@ -1,2 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
 
-/* Your CSS Code here. */
+header {
+  background-color: #004080;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #e0e0e0;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 15px;
+}
+
+section {
+  padding: 20px;
+}
+
+img {
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
