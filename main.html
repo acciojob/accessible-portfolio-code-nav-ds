@@ -2,36 +2,38 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Naveen's Portfolio</title>
+  <title>My Accessible Portfolio</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <header>
-    <h1 role="heading">Welcome to My Portfolio</h1>
-  </header>
-
+  <!-- Navigation bar with ARIA role -->
   <nav role="navigation">
     <ul role="list">
-      <li role="listitem"><a href="#about">About Me</a></li>
+      <li role="listitem"><a href="#about">About</a></li>
       <li role="listitem"><a href="#projects">Projects</a></li>
       <li role="listitem"><a href="#contact">Contact</a></li>
     </ul>
   </nav>
 
-  <section id="about">
-    <img src="profile.jpg" alt="Profile picture of Naveen" role="img" width="200">
-    <p>Hello! I'm Naveen, a passionate developer with an eye for clean design and accessible web experiences.</p>
-  </section>
+  <!-- Heading with ARIA role -->
+  <h1 role="heading">Welcome to My Portfolio</h1>
 
-  <section id="projects">
-    <h2 role="heading">Featured Projects</h2>
-    <ul role="list">
-      <li role="listitem">Personal Portfolio Website</li>
-      <li role="listitem">Weather App using API</li>
-      <li role="listitem">Task Manager with Django</li>
-    </ul>
-  </section>
+  <!-- Image with ARIA role and alt text -->
+  <img role="img" src="profile.jpg" alt="Profile picture of the portfolio owner">
+
+  <!-- Brief description -->
+  <p id="about">
+    Hello! I'm a web developer passionate about creating accessible and responsive websites.
+  </p>
+
+  <!-- List of skills or projects with ARIA roles -->
+  <h2 id="projects">My Top Skills</h2>
+  <ul role="list">
+    <li role="listitem">HTML & CSS</li>
+    <li role="listitem">JavaScript & React</li>
+    <li role="listitem">Python & Django</li>
+  </ul>
 
 </body>
 </html>
